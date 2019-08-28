@@ -2,3 +2,7 @@
 node_modules
 package-lock.json
 .DS_Store
+
+# adDed
+yarn.lock
+yarn-error.log
