@@ -4,48 +4,48 @@
     "name": "Harry Potter and the Chamber of Secrets",
     "authorId": 1,
     "madeInKenya": false,
-    "publishedAt": "2019-08-27T11:19:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
+    "publishedAt": "2000-09-01",
+    "publisher": "Scholastic Paperbacks",
+    "pages": 341,
     "format": "Paperback",
-    "coverUrl": "https://covers.openlibrary.org/w/id/8234422-M.jpg",
-    "isbn": 0
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg",
+    "isbn": "978-0439064873"
   },
   {
     "id": 2,
     "name": "Harry Potter and the Prisoner of Azkaban",
     "authorId": 1,
     "madeInKenya": false,
-    "publishedAt": "2019-08-27T11:18:30.686Z",
-    "publisher": "bar",
-    "pages": 100,
-    "format": "Paperback",
-    "coverUrl": "https://covers.openlibrary.org/w/id/8465053-M.jpg",
-    "isbn": 0
+    "publishedAt": "2017-10-03",
+    "publisher": "Arthur A. Levine Books",
+    "pages": 336,
+    "format": "Hardcover",
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/61mc3mRBvoL._SX420_BO1,204,203,200_.jpg",
+    "isbn": "978-0545791342"
   },
   {
     "id": 3,
     "name": "Harry Potter and the Goblet of Fire",
     "authorId": 1,
     "madeInKenya": false,
-    "publishedAt": "2014-07-27T11:17:30.686Z",
-    "publisher": "grr",
-    "pages": 100,
-    "format": "Paperback",
-    "coverUrl": "https://covers.openlibrary.org/w/id/8303392-M.jpg",
-    "isbn": 0
+    "publishedAt": "2019-10-08",
+    "publisher": "Arthur A. Levine Books",
+    "pages": 464,
+    "format": "Hardcover",
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/61Me3ePpM9L._SX421_BO1,204,203,200_.jpg",
+    "isbn": "978-0545791427"
   },
   {
     "id": 4,
     "name": "The Fellowship of the Ring",
     "authorId": 2,
     "madeInKenya": false,
-    "publishedAt": "2019-05-27T11:19:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
+    "publishedAt": "2012-09-18",
+    "publisher": "Mariner Books",
+    "pages": 432,
     "format": "Paperback",
-    "coverUrl": "https://covers.openlibrary.org/w/id/8311426-M.jpg",
-    "isbn": 0
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/51tW-UJVfHL._SX321_BO1,204,203,200_.jpg",
+    "isbn": "978-0547928210"
   },
   {
     "id": 5,
@@ -163,7 +163,7 @@
     "publishedAt": "2019-04-27T11:16:30.686Z",
     "publisher": "foo",
     "pages": 100,
-    "format": "Hard Cover",
+    "format": "Hardcover",
     "coverUrl": "https://covers.openlibrary.org/w/id/171595-M.jpg",
     "isbn": 0
   },
@@ -187,7 +187,7 @@
     "publishedAt": "2006-09-25",
     "publisher": "foo",
     "pages": 362,
-    "format": "Hard Cover",
+    "format": "Hardcover",
     "coverUrl": "https://covers.openlibrary.org/w/id/1165147-M.jpg",
     "isbn": 0
   }
