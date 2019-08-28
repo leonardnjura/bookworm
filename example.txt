@@ -1,0 +1,66 @@
+{
+  books{
+    id
+    name
+    authorId
+    author{
+      name
+    }
+    madeInKenya
+    publishedAt
+    isbn
+    format
+    pages
+  }
+}
+
+####################################
+
+{
+  authors{
+    id
+    name
+    books {
+      name
+    }
+  }
+}
+
+####################################
+
+{
+  book(id: 1){
+    name
+    author{
+      name
+    }
+  }
+}
+
+####################################
+
+{
+  author(id: 3){
+    name
+    books{
+      name
+    }
+  }
+}
+
+####################################
+
+# mutation{
+#   addBook(name: "The River and the Source", authorId: 4){
+#     id
+#     name
+#   }
+# }
+
+{
+  books{
+    id
+    name
+  }
+}
+

@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Harry Potter and the Chamber of Secrets",
+    "authorId": 1,
+    "madeInKenya": false,
+    "publishedAt": "2019-08-27T11:19:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 2,
+    "name": "Harry Potter and the Prisoner of Azkaban",
+    "authorId": 1,
+    "madeInKenya": false,
+    "publishedAt": "2019-08-27T11:18:30.686Z",
+    "publisher": "bar",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 3,
+    "name": "Harry Potter and the Goblet of Fire",
+    "authorId": 1,
+    "madeInKenya": false,
+    "publishedAt": "2014-07-27T11:17:30.686Z",
+    "publisher": "grr",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 4,
+    "name": "The Fellowship of the Ring",
+    "authorId": 2,
+    "madeInKenya": false,
+    "publishedAt": "2019-05-27T11:19:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 5,
+    "name": "The Two Towers",
+    "authorId": 2,
+    "madeInKenya": false,
+    "publishedAt": "2017-04-27T11:16:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 6,
+    "name": "The Return of the King",
+    "authorId": 2,
+    "madeInKenya": false,
+    "publishedAt": "2019-04-27T11:16:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 7,
+    "name": "The Hobbit",
+    "authorId": 2,
+    "madeInKenya": false,
+    "publishedAt": "2015-04-27T11:16:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 8,
+    "name": "The Way of Shadows",
+    "authorId": 3,
+    "madeInKenya": false,
+    "publishedAt": "2019-04-27T11:10:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 9,
+    "name": "Beyond the Shadows",
+    "authorId": 3,
+    "madeInKenya": false,
+    "publishedAt": "2019-02-27T11:05:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Kindle Edition",
+    "isbn": 0
+  },
+  {
+    "id": 10,
+    "name": "The River and the Source",
+    "authorId": 4,
+    "madeInKenya": true,
+    "publishedAt": "2004-12-29",
+    "publisher": "Focus Books, Kenya",
+    "pages": 292,
+    "format": "Paperback",
+    "isbn": 9789966882059
+  },
+  {
+    "id": 11,
+    "name": "I Swear by Apollo",
+    "authorId": 4,
+    "madeInKenya": true,
+    "publishedAt": "2002",
+    "publisher": "Focus Books, Kenya",
+    "pages": 284,
+    "format": "Paperback",
+    "isbn": 9789966882721
+  },
+  {
+    "id": 12,
+    "name": "Siku Njema",
+    "authorId": 5,
+    "madeInKenya": true,
+    "publishedAt": "2006-08-27T11:14:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 13,
+    "name": "Things Fall Apart",
+    "authorId": 6,
+    "madeInKenya": false,
+    "publishedAt": "2019-04-27T11:16:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 14,
+    "name": "Think Big",
+    "authorId": 7,
+    "madeInKenya": false,
+    "publishedAt": "2019-04-27T11:16:30.686Z",
+    "publisher": "foo",
+    "pages": 100,
+    "format": "Hard Cover",
+    "isbn": 0
+  },
+  {
+    "id": 15,
+    "name": "Dreams from my Father",
+    "authorId": 8,
+    "madeInKenya": false,
+    "publishedAt": "1995-04-27T11:16:30.686Z",
+    "publisher": "foo",
+    "pages": 403,
+    "format": "Paperback",
+    "isbn": 0
+  },
+  {
+    "id": 15,
+    "name": "The Audacity of Hope",
+    "authorId": 8,
+    "madeInKenya": false,
+    "publishedAt": "2006-09-25",
+    "publisher": "foo",
+    "pages": 362,
+    "format": "Paperback",
+    "isbn": 0
+  }
+]
