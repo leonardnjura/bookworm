@@ -12,7 +12,8 @@ Use graphiQL query samples in examples.txt after setup.
 
 Heroku
 --------
-Visit hosted app <a href='https://lno-bookworm.herokuapp.com'> here</a>.
+Visit hosted frontend app <a href='https://lno-bookworm.herokuapp.com'> here</a>.<br />
+Visit hosted backend graph <a href='https://lno-bookworm.herokuapp.com/graphql'> here</a>.
 
 Licence
 --------
