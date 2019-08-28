@@ -15,6 +15,7 @@ const BOOKS_QUERY = gql`
       }
       madeInKenya
       publishedAt
+      coverUrl
     }
   }
 `;
@@ -42,7 +43,6 @@ export class Books extends Component {
           }}
         </Query>
         <hr className="mb-5" />
-
       </Fragment>
     );
   }

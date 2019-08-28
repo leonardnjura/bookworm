@@ -31,6 +31,7 @@ const BookType = new GraphQLObjectType({
     publishedAt: { type: GraphQLString },
     isbn: { type: GraphQLString },
     format: { type: GraphQLString },
+    coverUrl: { type: GraphQLString },
     pages: { type: GraphQLString }
   })
 });

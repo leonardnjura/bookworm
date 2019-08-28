@@ -8,6 +8,7 @@
     "publisher": "foo",
     "pages": 100,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/8234422-M.jpg",
     "isbn": 0
   },
   {
@@ -19,6 +20,7 @@
     "publisher": "bar",
     "pages": 100,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/8465053-M.jpg",
     "isbn": 0
   },
   {
@@ -30,6 +32,7 @@
     "publisher": "grr",
     "pages": 100,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/8303392-M.jpg",
     "isbn": 0
   },
   {
@@ -41,6 +44,7 @@
     "publisher": "foo",
     "pages": 100,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/8311426-M.jpg",
     "isbn": 0
   },
   {
@@ -52,6 +56,7 @@
     "publisher": "foo",
     "pages": 100,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/8167232-M.jpg",
     "isbn": 0
   },
   {
@@ -63,6 +68,7 @@
     "publisher": "foo",
     "pages": 100,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/8302846-M.jpg",
     "isbn": 0
   },
   {
@@ -74,6 +80,7 @@
     "publisher": "foo",
     "pages": 100,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/8406761-M.jpg",
     "isbn": 0
   },
   {
@@ -85,6 +92,7 @@
     "publisher": "foo",
     "pages": 100,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/6452993-M.jpg",
     "isbn": 0
   },
   {
@@ -96,6 +104,7 @@
     "publisher": "foo",
     "pages": 100,
     "format": "Kindle Edition",
+    "coverUrl": "https://hachette.imgix.net/books/9780356500737.jpg?auto=compress,format&w=440",
     "isbn": 0
   },
   {
@@ -107,6 +116,7 @@
     "publisher": "Focus Books, Kenya",
     "pages": 292,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/2304859-L.jpg",
     "isbn": 9789966882059
   },
   {
@@ -118,6 +128,7 @@
     "publisher": "Focus Books, Kenya",
     "pages": 284,
     "format": "Paperback",
+    "coverUrl": "http://www.africanbookscollective.com/books/i-swear-by-apollo/cover_mini",
     "isbn": 9789966882721
   },
   {
@@ -125,11 +136,12 @@
     "name": "Siku Njema",
     "authorId": 5,
     "madeInKenya": true,
-    "publishedAt": "2006-08-27T11:14:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
+    "publishedAt": "1996-01-01",
+    "publisher": "Longhorn, Kenya",
+    "pages": 150,
     "format": "Paperback",
-    "isbn": 0
+    "coverUrl": "https://textbookcentre.com/media/products/2010143000088.jpg",
+    "isbn": 9789966497444
   },
   {
     "id": 13,
@@ -140,6 +152,7 @@
     "publisher": "foo",
     "pages": 100,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/8372036-M.jpg",
     "isbn": 0
   },
   {
@@ -151,6 +164,7 @@
     "publisher": "foo",
     "pages": 100,
     "format": "Hard Cover",
+    "coverUrl": "https://covers.openlibrary.org/w/id/171595-M.jpg",
     "isbn": 0
   },
   {
@@ -162,6 +176,7 @@
     "publisher": "foo",
     "pages": 403,
     "format": "Paperback",
+    "coverUrl": "https://covers.openlibrary.org/w/id/168409-M.jpg",
     "isbn": 0
   },
   {
@@ -172,7 +187,8 @@
     "publishedAt": "2006-09-25",
     "publisher": "foo",
     "pages": 362,
-    "format": "Paperback",
+    "format": "Hard Cover",
+    "coverUrl": "https://covers.openlibrary.org/w/id/1165147-M.jpg",
     "isbn": 0
   }
 ]
