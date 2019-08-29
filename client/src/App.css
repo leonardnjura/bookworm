@@ -1,3 +1,8 @@
 .author{
     font-family: 'Amatic SC', cursive;
 }
+
+.book-details{
+    font-size: 2em;
+    font-weight: 400;
+}
