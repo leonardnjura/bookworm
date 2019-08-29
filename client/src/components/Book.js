@@ -3,7 +3,8 @@ import gql from 'graphql-tag';
 import { Query } from 'react-apollo';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
-import Moment from 'react-moment';
+import BookAnimation, { CoverAnimation } from './GsapAnimation';
+import moment from 'moment';
 
 const BOOK_QUERY = gql`
   query BookQuery($id: Int!) {
@@ -29,8 +30,6 @@ export class Book extends Component {
     id = parseInt(id);
     return (
       <Fragment>
-        {/* <h4 className="display-4 my-3">Book</h4>
-        <p>Discover more about this book!</p> */}
         <Query query={BOOK_QUERY} variables={{ id }}>
           {({ loading, error, data }) => {
             if (loading) return <h4>Loading Book..</h4>;
@@ -46,7 +45,11 @@ export class Book extends Component {
               pages
             } = data.book;
             const authorName = data.book.author.name;
+            const publicationDay = moment(publishedAt)
+              .local()
+              .format('Do MMMM, YYYY');
 
+            console.log({ publicationDay });
             console.log(data);
             return (
               <div>
@@ -59,15 +62,23 @@ export class Book extends Component {
 
                 <div className="row">
                   <div className="col-md-9">
-                    {/* <h4>Book Details:</h4> */}
                     <ul className="list-group mb-3">
-                      <li className="list-group-item">Author: {authorName}</li>
                       <li className="list-group-item">
-                        Published: <Moment format="YYYY">{publishedAt}</Moment>
+                        Author: <BookAnimation item={authorName} />
                       </li>
-                      <li className="list-group-item">ISBN: {isbn}</li>
-                      <li className="list-group-item">Format: {format}</li>
-                      <li className="list-group-item">Pages: {pages}</li>
+                      <li className="list-group-item">
+                        Published: <BookAnimation item={publicationDay} />
+                      </li>
+                      <li className="list-group-item">
+                        ISBN: <BookAnimation item={isbn} />
+                      </li>
+                      <li className="list-group-item">
+                        Format: <BookAnimation item={format} />
+                      </li>
+                      <li className="list-group-item">
+                        Pages: <BookAnimation item={pages} />
+                      </li>
+
                       <li className="list-group-item">
                         Made in Kenya:{' '}
                         <span
@@ -82,16 +93,7 @@ export class Book extends Component {
                     </ul>
                   </div>
                   <div className="col-md-3">
-                    <img
-                      src={coverUrl}
-                      alt="Book Cover"
-                      style={{
-                        width: 230,
-                        display: 'block',
-                        margin: 'auto',
-                        borderRadius: 5
-                      }}
-                    />
+                    <CoverAnimation item={coverUrl} />
 
                     <hr className="mb-5" />
                   </div>
