@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function BookItem(props) {
   console.log(props.book);
-  const { id, name, author, madeInKenya, coverUrl } = props.book;
+  const { id, name, author, authorId, madeInKenya, coverUrl } = props.book;
   return (
     <div className="card card-body mb-3">
       <div className="row">
@@ -19,7 +19,11 @@ export default function BookItem(props) {
             ></span>
             Book: {name}
           </h4>
-          <h1 className="author">By {author.name}</h1>
+          <h1 className="author">
+            <Link to={`/author/${authorId}`} className="silent-link">
+              By {author.name}
+            </Link>
+          </h1>
           <Link to={`/book/${id}`} className="btn btn-secondary  mb-2">
             Book Details
           </Link>

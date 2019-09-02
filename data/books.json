@@ -2,18 +2,21 @@
   {
     "id": 1,
     "name": "Harry Potter and the Chamber of Secrets",
+    "series": "Harry Potter (Book 2)",
     "authorId": 1,
     "madeInKenya": false,
-    "publishedAt": "2000-09-01",
+    "publishedAt": "1999-07-01",
     "publisher": "Scholastic Paperbacks",
-    "pages": 341,
-    "format": "Paperback",
-    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg",
-    "isbn": "978-0439064873"
+    "pages": 352,
+    "format": "Hardcover",
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/51oKzLklm7L._SY346_.jpg",
+    "isbn": "978-0439064866",
+    "bookDesc": "In Harry Potter and the Chamber of Secrets, the summer after Harry’s first year at Hogwarts has been his worst summer ever… the Dursleys more distant and horrible than ever before. But just as he’s packing his bags to return to school, a creature named Dobby the house-elf announces that if Harry goes back to Hogwarts, disaster will strike. And it turns out, Dobby is right. Harry and Ron miss the Hogwarts Express, so they fly to school in a blue Ford Anglia, crash landing in the notorious Whomping Willow. Soon other worries accumulate: the outrageously stuck-up new professor Gilderoy Lockhart; a ghost named Moaning Myrtle, who haunts the girls' bathroom; the strange behavior of Ron's little sister, Ginny Weasley; rumors about the \"Chamber of Secrets,\" a cavern buried deep below Hogwarts; and a magical diary owned by Tom Riddle, a Hogwarts student of long ago. Harry is also shocked to discover that he can speak Parseltongue, the language of snakes - a rare ability that Lord Voldemort also possessed - and that anti-Muggle prejudice exists in the Wizarding world, even affecting Harry's friend Hermione. But all of these seem like minor concerns when someone starts turning Hogwarts students to stone: an evildoer said to be the fearsome Heir of Salazar Slytherin, on of the founders of the school. Could it be Draco Malfoy, Harry's most poisonous rival? Could it be Hagrid whose mysterious past is finally told? Or could it be the one person everyone at Hogwarts most suspects: Harry Potter himself?"
   },
   {
     "id": 2,
     "name": "Harry Potter and the Prisoner of Azkaban",
+    "series": "Harry Potter (Book 3)",
     "authorId": 1,
     "madeInKenya": false,
     "publishedAt": "2017-10-03",
@@ -21,11 +24,13 @@
     "pages": 336,
     "format": "Hardcover",
     "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/61mc3mRBvoL._SX420_BO1,204,203,200_.jpg",
-    "isbn": "978-0545791342"
+    "isbn": "978-0545791342",
+    "bookDesc": "For twelve long years, the dread fortress of Azkaban held an infamous prisoner named Sirius Black. Convicted of killing thirteen people with a single curse, he was said to be the heir apparent to the Dark Lord, Voldemort. Now he has escaped, leaving only two clues as to where he might be headed: Harry Potter's defeat of You-Know-Who was Black's downfall as well. And the Azkaban guards heard Black muttering in his sleep, \"He's at Hogwarts . . . he's at Hogwarts.\" Harry Potter isn't safe, not even within the walls of his magical school, surrounded by his friends. Because on top of it all, there may well be a traitor in their midst."
   },
   {
     "id": 3,
     "name": "Harry Potter and the Goblet of Fire",
+    "series": "Harry Potter (Book 4)",
     "authorId": 1,
     "madeInKenya": false,
     "publishedAt": "2019-10-08",
@@ -33,11 +38,13 @@
     "pages": 464,
     "format": "Hardcover",
     "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/61Me3ePpM9L._SX421_BO1,204,203,200_.jpg",
-    "isbn": "978-0545791427"
+    "isbn": "978-0545791427",
+    "bookDesc": "Harry Potter is midway through his training as a wizard and his coming of age. Harry wants to get away from the pernicious Dursleys and go to the International Quidditch Cup. He wants to find out about the mysterious event that's supposed to take place at Hogwarts this year, an event involving two other rival schools of magic, and a competition that hasn't happened for a hundred years. He wants to be a normal, fourteen-year-old wizard. But unfortunately for Harry Potter, he's not normal - even by wizarding standards. And in his case, different can be deadly."
   },
   {
     "id": 4,
     "name": "The Fellowship of the Ring",
+    "series": "",
     "authorId": 2,
     "madeInKenya": false,
     "publishedAt": "2012-09-18",
@@ -45,71 +52,83 @@
     "pages": 432,
     "format": "Paperback",
     "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/51tW-UJVfHL._SX321_BO1,204,203,200_.jpg",
-    "isbn": "978-0547928210"
+    "isbn": "978-0547928210",
+    "bookDesc": "The first volume in J.R.R. Tolkien's epic adventure THE LORD OF THE RINGS One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them. In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit. In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the Ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose."
   },
   {
     "id": 5,
     "name": "The Two Towers",
+    "series": "",
     "authorId": 2,
     "madeInKenya": false,
-    "publishedAt": "2017-04-27T11:16:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
+    "publishedAt": "2005-06-01",
+    "publisher": "Houghton Mifflin Harcourt",
+    "pages": 352,
     "format": "Paperback",
     "coverUrl": "https://covers.openlibrary.org/w/id/8167232-M.jpg",
-    "isbn": 0
+    "isbn": "978-0618574957",
+    "bookDesc": "The second volume in J.R.R. Tolkien's epic adventure THE LORD OF THE RINGS. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them. Frodo and his Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom. They have lost the wizard, Gandalf, in a battle in the Mines of Moria. And Boromir, seduced by the power of the Ring, tried to seize it by force. While Frodo and Sam made their escape, the rest of the company was attacked by Orcs. Now they continue the journey alone down the great River Anduin—alone, that is, save for the mysterious creeping figure that follows wherever they go"
   },
   {
     "id": 6,
     "name": "The Return of the King",
+    "series": "",
     "authorId": 2,
     "madeInKenya": false,
-    "publishedAt": "2019-04-27T11:16:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
-    "format": "Paperback",
-    "coverUrl": "https://covers.openlibrary.org/w/id/8302846-M.jpg",
-    "isbn": 0
+    "publishedAt": "1988-03-03",
+    "publisher": "Houghton Mifflin Harcourt",
+    "pages": 448,
+    "format": "Hardcover",
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/516A1VV25FL._SX307_BO1,204,203,200_.jpg",
+    "isbn": "978-0395489307",
+    "bookDesc": "Concluding the story of The Hobbit, this is the final part of Tolkien’s epic master piece. Impossible to describe in a few words, JRR Tolkien’s great work of imaginative fiction has been labelled both a heroic romance and a classic fantasy fiction. By turns comic and homely, epic and diabolic, the narrative moves through countless changes of scene and character in an imaginary world which is totally convincing in its detail. Tolkien created a vast new mythology in an invented world which has proved timeless in its appeal."
   },
   {
     "id": 7,
     "name": "The Hobbit",
+    "series": "",
     "authorId": 2,
     "madeInKenya": false,
-    "publishedAt": "2015-04-27T11:16:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
+    "publishedAt": "2012-09-18",
+    "publisher": "Houghton Mifflin Harcourt",
+    "pages": 320,
     "format": "Paperback",
     "coverUrl": "https://covers.openlibrary.org/w/id/8406761-M.jpg",
-    "isbn": 0
+    "isbn": 0,
+    "bookDesc": "A great modern classic and the prelude to The Lord of the Rings. This charming pocket-sized edition contains the complete unabridged text and features the original cover illustration, painted by J.R.R. Tolkien himself.  The perfect gift for little Hobbits everywhere! Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon. Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum."
   },
   {
     "id": 8,
     "name": "The Way of Shadows",
+    "series": "The Night Angel Trilogy (Book 1)",
     "authorId": 3,
     "madeInKenya": false,
-    "publishedAt": "2019-04-27T11:10:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
+    "publishedAt": "2011-08-01",
+    "publisher": "Orbit Books",
+    "pages": 672,
     "format": "Paperback",
     "coverUrl": "https://covers.openlibrary.org/w/id/6452993-M.jpg",
-    "isbn": 0
+    "isbn": "978-0356500713",
+    "bookDesc": "Azoth is an orphan who lives in the Warrens of Cenaria City. He and his two friends, Jarl and 'Doll Girl', are members of the Black Dragon Guild. They make their living stealing money to buy food and pay their guild dues to Rat, the Guild Fist, an enforcer who beats or rapes anyone who doesn't pay. The perfect killer has no friends. Only targets. For Durzo Blint, assassination is an art. And he is the city's most accomplished artist, his talents required from alleyway to courtly boudoir. For Azoth, survival is precarious. Something you never take for granted. As a guild rat, he's grown up in the slums, and learned the hard way to judge people quickly - and to take risks. Risks like apprenticing himself to Durzo Blint. But to be accepted, Azoth must turn his back on his old life and embrace a new identity and name. As Kylar Stern, he must learn to navigate the assassins' world of dangerous politics and strange magics - and cultivate a flair for death."
   },
   {
     "id": 9,
     "name": "Beyond the Shadows",
+    "series": "The Night Angel Trilogy (Book 3)",
     "authorId": 3,
     "madeInKenya": false,
-    "publishedAt": "2019-02-27T11:05:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
+    "publishedAt": "2008-12-01",
+    "publisher": "Orbit Books",
+    "pages": 689,
     "format": "Kindle Edition",
     "coverUrl": "https://hachette.imgix.net/books/9780356500737.jpg?auto=compress,format&w=440",
-    "isbn": 0
+    "isbn": "978-0316033664",
+    "bookDesc": "A new queen has usurped the throne and is leading Cenaria into disaster. The country has become a broken realm with a threadbare army, little food, and no hope. Kylar Stern plans to reinstate his closest friend Logan as King, but can he really get away with murder? In the north, the Godking's death has thrown Khalidor into civil war. To gain the upper hand, one faction attempts to raise the goddess Khali herself. But they are playing with volatile powers, and trigger conflict on a vast scale. Seven armies will converge to save - or destroy - an entire continent.Kylar has finally learnt the bitter cost of immortality, and is faced with a task only he can complete. To save his friends, and perhaps his enemies, he must assassinate a goddess. Failure will doom the south. Success will cost him everything he's ever loved."
   },
   {
     "id": 10,
     "name": "The River and the Source",
+    "series": "",
     "authorId": 4,
     "madeInKenya": true,
     "publishedAt": "2004-12-29",
@@ -117,11 +136,13 @@
     "pages": 292,
     "format": "Paperback",
     "coverUrl": "https://covers.openlibrary.org/w/id/2304859-L.jpg",
-    "isbn": 9789966882059
+    "isbn": 9789966882059,
+    "bookDesc": "\"A home without daughters is like a spring without a source.\" Published in 1994, The River and the Source traces the lives of three generations of women and the men who stood by them. It begins with the story of Akoko, set in her rich traditional Luo surroundings in Nyanza province of Kenya, to the children of Awiti who live and die in the full swell of the 20th century. Akoko's determination and clarity of vision is prominent among the five generations of Akokos's family. The River and the Source is a story of unparralleled vision, endurance, and hope. The women in this award-winning novel are fiercely loyal to family and family values, are able to endure suffering with determination and courage, believe in continuity through change, and have a firm belief in God. The River and the Source embraces the African woman’s spirit of welcoming change while taking on the challenges that come with it. It is an epic story that spans cultures—filled with laughter and tears. It is a book that gives a true and involving insight into the culture and aspirations of the Luo people–the land of Obama’s father."
   },
   {
     "id": 11,
     "name": "I Swear by Apollo",
+    "series": "",
     "authorId": 4,
     "madeInKenya": true,
     "publishedAt": "2002",
@@ -129,11 +150,13 @@
     "pages": 284,
     "format": "Paperback",
     "coverUrl": "http://www.africanbookscollective.com/books/i-swear-by-apollo/cover_mini",
-    "isbn": 9789966882721
+    "isbn": 9789966882721,
+    "bookDesc": "In this novel, Ogola tells of the lives of AIDS' orphans Lisa, Johnny and Alicia, and how they are guided to adulthood by their aunt Wandia, an intellectual and independent woman. The author weaves her narrative around the aspirations of her characters and how they develop to find a place in Luo/Kenyan society. A place they seek at the dawn of the twenty-first century, when Kenya is emerging from decades of corruption and deterioration; and in an environment of contradiction and mixed messages, where values and attitudes are continuously being re- examined."
   },
   {
     "id": 12,
     "name": "Siku Njema",
+    "series": "",
     "authorId": 5,
     "madeInKenya": true,
     "publishedAt": "1996-01-01",
@@ -141,54 +164,63 @@
     "pages": 150,
     "format": "Paperback",
     "coverUrl": "https://textbookcentre.com/media/products/2010143000088.jpg",
-    "isbn": 9789966497444
+    "isbn": 9789966497444,
+    "bookDesc": "Written in the first person, the book deals with the life of a young man,  who is born in Tanga, Tanzania and who faces family hardships with his single mother, who is a talented singer of taarab. Being a child born out of wedlock does not make life easier for him as he is chided by his schoolmates in a culture that frowns upon illegitimate children. In Tanzania, the story dwells mostly in the struggles of Kombo after his mother, Zainabu Makame dies. He has to struggle with school and at the same time live through the maltreatments meted by his aunt and foster mother. His brilliance in writing however, baills him out and he becomes quite a successful student later nicknamed Kongowea Mswahili in reference to a prize-winning essay he had written."
   },
   {
     "id": 13,
     "name": "Things Fall Apart",
+    "series": "Penguin Red Classics",
     "authorId": 6,
     "madeInKenya": false,
-    "publishedAt": "2019-04-27T11:16:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
+    "publishedAt": "2007-06-01",
+    "publisher": "Penguin Books",
+    "pages": 208,
     "format": "Paperback",
     "coverUrl": "https://covers.openlibrary.org/w/id/8372036-M.jpg",
-    "isbn": 0
+    "isbn": "978-0141023380",
+    "bookDesc": "Okonkwo's life is shaken up a when an accidental murder takes place and Okonkwo ends up adopting a boy from another village. The boy is named Ikemefuna and Okonkwo comes to love him like a son. In fact, he loves him more than his natural son, Nwoye. After three years, though, the tribe decides that Ikemefuna must die."
   },
   {
     "id": 14,
     "name": "Think Big",
+    "series": "",
     "authorId": 7,
     "madeInKenya": false,
-    "publishedAt": "2019-04-27T11:16:30.686Z",
-    "publisher": "foo",
-    "pages": 100,
+    "publishedAt": "1992-02-17",
+    "publisher": "Zondervan",
+    "pages": 256,
     "format": "Hardcover",
     "coverUrl": "https://covers.openlibrary.org/w/id/171595-M.jpg",
-    "isbn": 0
+    "isbn": "978-0310574101",
+    "bookDesc": "In Think Big, which emanates from the last chapter of his best-selling Gifted Hands, Dr. Ben Carson prescribes his personal formula for success. And who could better advise than one who transformed his own life from that of being a ghetto kid with problems in school to becoming the most celebrated pediatric neurosurgeon in the world? With an acrostic, Dr. Carson spells out his philosophy of living: T -Talents/time: Recognize as gifts from God H -Hope for good things and be honest I -insight from people and good books N -Be nice to all people K -Knowledge: Recognize as they key to living B -Books: Read them actively I -In-depth learning skills: Develop them G -God: Never get too big for Him -- Think Big does not offer pat answers, or promise a life of ease, but it does show how a person should view problems, evaluate them, react to them, and eventually overcome them. The philosophy in Think Big can be applied by all individuals to their own lives and help them to make the most of the gifts that God has given them."
   },
   {
     "id": 15,
     "name": "Dreams from my Father",
+    "series": "",
     "authorId": 8,
     "madeInKenya": false,
-    "publishedAt": "1995-04-27T11:16:30.686Z",
-    "publisher": "foo",
-    "pages": 403,
-    "format": "Paperback",
+    "publishedAt": "2007-01-09",
+    "publisher": "Crown Pub",
+    "pages": 442,
+    "format": "Hardcover",
     "coverUrl": "https://covers.openlibrary.org/w/id/168409-M.jpg",
-    "isbn": 0
+    "isbn": 0,
+    "bookDesc": "An international bestseller which has sold over a million copies in the UK, Dreams From My Father is a refreshing, revealing portrait of a young man asking big questions about identity and belonging. The son of a black African father and a white American mother, President Obama recounts an emotional odyssey, retracing the migration of his mother's family from Kansas to Hawaii, then to his childhood home in Indonesia. Finally he travels to Kenya, where he confronts the bitter truth of his father's life and at last reconciles his divided inheritance."
   },
   {
     "id": 16,
     "name": "The Audacity of Hope",
+    "series": "",
     "authorId": 8,
     "madeInKenya": false,
-    "publishedAt": "2006-09-25",
-    "publisher": "foo",
-    "pages": 362,
-    "format": "Hardcover",
+    "publishedAt": "2007-11-06",
+    "publisher": "Broadway Books",
+    "pages": 375,
+    "format": "Paperback",
     "coverUrl": "https://covers.openlibrary.org/w/id/1165147-M.jpg",
-    "isbn": 0
+    "isbn": "978-0307237705",
+    "bookDesc": "In this bestselling book Obama discusses the importance of empathy in politics, his hopes for a different America with different policies, and how the ideals of its democracy can be renewed. With intimacy and self-deprecating humour, Obama describes his experiences as a politician, about balancing his family life and his public vocation. His search for consensus and his respect for the democratic process inform every sentence. A senator and a lawyer, a professor and a father,a Christian and a sceptic, Barack Obama has written a book of transforming power that will inspire people the world over."
   }
 ]

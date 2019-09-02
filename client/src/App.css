@@ -6,3 +6,6 @@
     font-size: 2em;
     font-weight: 400;
 }
+
+.silent-link { color:#777; text-decoration:none;}
+.silent-link:hover { color:#0cf; text-decoration:none;}

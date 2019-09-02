@@ -11,6 +11,7 @@
     isbn
     format
     pages
+    bookDesc
   }
 }
 
@@ -48,19 +49,38 @@
   }
 }
 
-####################################
+################mutations####################
+#############################################
 
-# mutation{
-#   addBook(name: "The River and the Source", authorId: 4){
-#     id
-#     name
-#   }
-# }
 
-{
-  books{
+mutation{
+addBook(
+    name: "Matilda",
+    authorId: 9,
+    madeInKenya: true,
+    publishedAt : "2007-08-16",
+    publisher: "Puffin Books",
+    isbn: "978-0142410370",
+    format: "Hardcover",
+    coverUrl : "https://images-na.ssl-images-amazon.com/images/I/51vHLdb4CYL._SX323_BO1,204,203,200_.jpg",
+    pages: 240,
+    bookDesc: "Matilda is the world's most famous bookworm, no thanks to her ghastly parents."
+   ){
     id
     name
+    bookDesc
   }
 }
 
+####################################
+
+mutation{
+  addAuthor(
+    name: "Roald Dahl",
+    authorDesc: "Roald Dahl was a spy, ace fighter-pilot, chocolate historian and medical inventor. He was also the author of Charlie and the Chocolate Factory, Matilda, The BFG and many more brilliant stories. He remains the World’s No.1 storyteller. Find out more at roalddahl.com."
+    ){
+    id
+    name
+    authorDesc
+  }
+}
