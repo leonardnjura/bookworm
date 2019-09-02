@@ -34,7 +34,7 @@ export class Author extends Component {
             return (
               <div>
                 <Link to="/" className="btn btn-secondary mt-2">
-                  Back
+                  All Books
                 </Link>
                 <h1 className="display-4 my-3">
                   <span className="text-dark">{name}</span>
@@ -51,7 +51,10 @@ export class Author extends Component {
                     <ul className="list-group mb-3">
                       {books.map(book => (
                         <li className="list-group-item" key={book.id}>
-                          Book: <BookAnimation item={book.name} />
+                          Book:
+                          <Link to={`/book/${book.id}`} className="silent-link">
+                            <BookAnimation item={book.name} />
+                          </Link>
                         </li>
                       ))}
                     </ul>

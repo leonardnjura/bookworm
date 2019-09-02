@@ -58,7 +58,7 @@ export class Book extends Component {
             return (
               <div>
                 <Link to="/" className="btn btn-secondary mt-2">
-                  Back
+                  All Books
                 </Link>
                 <h1 className="display-4 my-3">
                   <span className="text-dark">{bookTitle}</span>
