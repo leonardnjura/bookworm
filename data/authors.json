@@ -1,10 +1,42 @@
 [
-  { "id": 1, "name": "J. K. Rowling" },
-  { "id": 2, "name": "J. R. R. Tolkien" },
-  { "id": 3, "name": "Brent Weeks" },
-  { "id": 4, "name": "Margaret A. Ogola" },
-  { "id": 5, "name": "Ken Walibora" },
-  { "id": 6, "name": "Chinua Achebe" },
-  { "id": 7, "name": "Ben Carson" },
-  { "id": 8, "name": "Barack Obama" }
+  {
+    "id": 1,
+    "name": "J. K. Rowling",
+    "authorDesc": "J.K. Rowling is the author of the record-breaking, multi-award-winning Harry Potter novels. Loved by fans around the world, the series has sold more than 500 million copies, been translated into 80 languages and made into eight blockbuster films. She has written three companion volumes in aid of charity: Quidditch Through the Ages and Fantastic Beasts and Where to Find Them (in aid of Comic Relief and Lumos), and The Tales of Beedle the Bard (in aid of Lumos). "
+  },
+  {
+    "id": 2,
+    "name": "J. R. R. Tolkien",
+    "authorDesc": "J.R.R. Tolkien (1892.1973), beloved throughout the world as the creator of The Hobbit and The Lord of the Rings, was a professor of Anglo-Saxon at Oxford, a fellow of Pembroke College, and a fellow of Merton College until his retirement in 1959. His chief interest was the linguistic aspects of the early English written tradition, but even as he studied these classics he was creating a set of his own."
+  },
+  {
+    "id": 3,
+    "name": "Brent Weeks",
+    "authorDesc": "Brent Weeks was born and raised in Montana. After getting his paper keys from Hillsdale College, Brent had brief stints walking the earth like Caine from Kung Fu, tending bar, and corrupting the youth. (Not at the same time.) He started writing on bar napkins, then on lesson plans, then full time. Eventually, someone paid him for it. Brent lives in Oregon with his wife, Kristi. He doesn't own cats or wear a ponytail."
+  },
+  {
+    "id": 4,
+    "name": "Margaret A. Ogola",
+    "authorDesc": "A Kenyan novelist who wrote The River and the Source and its sequel, I Swear by Apollo. The River and the Source follows four generations of Kenyan women in a rapidly changing country and society."
+  },
+  {
+    "id": 5,
+    "name": "Ken Walibora",
+    "authorDesc": "Ken Walibora is a writer, speaker, and a media personality. Author of the critically acclaimed Swahili novel 'Siku Njema'"
+  },
+  {
+    "id": 6,
+    "name": "Chinua Achebe",
+    "authorDesc": "A Nigerian novelist, poet, professor, and critic. His first novel Things Fall Apart (1958) was considered his magnum opus, and is the most widely read book in modern African literature."
+  },
+  {
+    "id": 7,
+    "name": "Ben Carson",
+    "authorDesc": "Dr. Benjamin Carson is a professor of neurosurgery, plastic surgery, oncology, and pediatrics, and the director of pediatric neurosurgery at Johns Hopkins Medical Institutions. He is also the author of three other bestselling books--Gifted Hands, Think Big, and The Big Picture. He serves on the corporate boards of the Kellogg Company, Costco Wholesale Corp., and American's Promise, among others, and is an Emeritus Fellow of the Yale Corporation. He and his wife, Candy, are the parents of three grown sons and live in Baltimore County, Maryland."
+  },
+  {
+    "id": 8,
+    "name": "Barack Obama",
+    "authorDesc": "Barack Obama was elected President of the United States on November 4, 2008. He is the author of the New York Times bestsellers Dreams from My Father and The Audacity of Hope: Thoughts on Reclaiming the American Dream."
+  }
 ]

@@ -11,6 +11,7 @@ const BOOK_QUERY = gql`
     book(id: $id) {
       name
       author {
+        id
         name
       }
       madeInKenya
@@ -19,6 +20,7 @@ const BOOK_QUERY = gql`
       format
       coverUrl
       pages
+      bookDesc
     }
   }
 `;
@@ -42,8 +44,10 @@ export class Book extends Component {
               isbn,
               format,
               coverUrl,
-              pages
+              pages,
+              bookDesc
             } = data.book;
+            const authorId = data.book.author.id;
             const authorName = data.book.author.name;
             const publicationDay = moment(publishedAt)
               .local()
@@ -64,7 +68,13 @@ export class Book extends Component {
                   <div className="col-md-9">
                     <ul className="list-group mb-3">
                       <li className="list-group-item">
-                        Author: <BookAnimation item={authorName} />
+                        Author:
+                        <Link
+                          to={`/author/${authorId}`}
+                          className="silent-link"
+                        >
+                          <BookAnimation item={authorName} />
+                        </Link>
                       </li>
                       <li className="list-group-item">
                         Published: <BookAnimation item={publicationDay} />
@@ -77,6 +87,10 @@ export class Book extends Component {
                       </li>
                       <li className="list-group-item">
                         Pages: <BookAnimation item={pages} />
+                      </li>
+
+                      <li className="list-group-item">
+                        Overview: <BookAnimation item={bookDesc} />
                       </li>
 
                       <li className="list-group-item">

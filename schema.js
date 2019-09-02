@@ -27,12 +27,14 @@ const BookType = new GraphQLObjectType({
         return authors.find(author => author.id === book.authorId);
       }
     },
-    madeInKenya: { type: GraphQLBoolean },
-    publishedAt: { type: GraphQLString },
-    isbn: { type: GraphQLString },
-    format: { type: GraphQLString },
-    coverUrl: { type: GraphQLString },
-    pages: { type: GraphQLString }
+    madeInKenya: { type: GraphQLNonNull(GraphQLBoolean) },
+    publishedAt: { type: GraphQLNonNull(GraphQLString) },
+    publisher: { type: GraphQLNonNull(GraphQLString) },
+    isbn: { type: GraphQLNonNull(GraphQLString) },
+    format: { type: GraphQLNonNull(GraphQLString) },
+    coverUrl: { type: GraphQLNonNull(GraphQLString) },
+    pages: { type: GraphQLNonNull(GraphQLInt) },
+    bookDesc: { type: GraphQLNonNull(GraphQLString) }
   })
 });
 
@@ -48,7 +50,8 @@ const AuthorType = new GraphQLObjectType({
       resolve: author => {
         return books.filter(book => book.authorId === author.id);
       }
-    }
+    },
+    authorDesc: { type: GraphQLNonNull(GraphQLString) }
   })
 });
 
@@ -99,13 +102,29 @@ const RootMutationType = new GraphQLObjectType({
       description: 'Add a book',
       args: {
         name: { type: GraphQLNonNull(GraphQLString) },
-        authorId: { type: GraphQLNonNull(GraphQLInt) }
+        authorId: { type: GraphQLNonNull(GraphQLInt) },
+        madeInKenya: { type: GraphQLNonNull(GraphQLBoolean) },
+        publishedAt: { type: GraphQLNonNull(GraphQLString) },
+        publisher: { type: GraphQLNonNull(GraphQLString) },
+        isbn: { type: GraphQLNonNull(GraphQLString) },
+        format: { type: GraphQLNonNull(GraphQLString) },
+        coverUrl: { type: GraphQLNonNull(GraphQLString) },
+        pages: { type: GraphQLNonNull(GraphQLInt) },
+        bookDesc: { type: GraphQLNonNull(GraphQLString) }
       },
       resolve: (parent, args) => {
         const book = {
           id: books.length + 1,
           name: args.name,
-          authorId: args.authorId
+          authorId: args.authorId,
+          madeInKenya: args.madeInKenya,
+          publishedAt: args.publishedAt,
+          publisher: args.publisher,
+          isbn: args.isbn,
+          format: args.format,
+          coverUrl: args.coverUrl,
+          pages: args.pages,
+          bookDesc: args.bookDesc
         };
         books.push(book);
         return book;
@@ -115,12 +134,14 @@ const RootMutationType = new GraphQLObjectType({
       type: AuthorType,
       description: 'Add an Author',
       args: {
-        name: { type: GraphQLNonNull(GraphQLString) }
+        name: { type: GraphQLNonNull(GraphQLString) },
+        authorDesc: { type: GraphQLNonNull(GraphQLString) }
       },
       resolve: (parent, args) => {
         const author = {
           id: authors.length + 1,
-          name: args.name
+          name: args.name,
+          authorDesc: args.authorDesc
         };
         authors.push(author);
         return author;
