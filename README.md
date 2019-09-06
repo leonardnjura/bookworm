@@ -3,7 +3,7 @@ Fullstack app about bestselling books built with reactjs, graphql, apollo, expre
 
 What?
 --------
-Uses above technologies to build a frontend andd backend app that provides a web bookstand. Humans get to exercise their brains with literature in such categories as bestselling, fictional, most gifted, top rated and african books. Mutations will not persist data.
+Uses above technologies to build a frontend and backend app that provides a web bookstand. Humans get to exercise their brains with literature in book categories such as bestselling, fictional, most-gifted, top-rated or african. Mutations will not persist data.
 
 Setup
 --------
